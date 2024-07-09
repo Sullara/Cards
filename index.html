@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <h1>Hilda</h1>
+    </header>
+    <main class="personagens-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="./src/imagens/seta.png" alt="seta para voltar a imagem" />
+      </button>
+
+      <ul class="lista-personagens">
+        <li class="cartao selecionado fundo-1">
+          <h2 class="nome">Hilda</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/Hilda.png"
+            alt="Hilda"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">About</h3>
+            <p class="texto">
+              Hilda is an extremely adventurous and fearless girl. 
+              She loves to draw in her sketchbook and is very kind to nature. 
+              She is shown not to get scared easily by monsters and can outrun and outsmart them.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-2">
+          <h2 class="nome">Twig</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/Twig.png"
+            alt="Twig"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">About</h3>
+            <p class="texto">
+              Twig is a protective, trusty and brave animal who likes to help Hilda. 
+              When he is protective, he goes in front of Hilda and growls at anyone that 
+              she doesn't know when they go up to her. He also has a sharp sense of smell and is 
+              quick to realize something is not right.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-3">
+          <h2 class="nome">Johanna</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/Johanna.png"
+            alt="Johanna"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">About</h3>
+            <p class="texto">
+              Hilda's mother is caring and supportive, but at times she can worry too much about 
+              Hilda not having any "normal" friends her age. Since she lived in Trolberg for a good 
+              portion of her childhood, she has a soft spot for the city, and had much less trouble 
+              with moving there than Hilda did.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-4">
+          <h2 class="nome">David</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/David.png"
+            alt="David"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">About</h3>
+            <p class="texto">
+              David tends to be quickly scared and easily distracted, as well as a bit clumsy. 
+              It often takes his friends' encouragement to get him over his fears.
+              David has at least one talent, that being he's a great singer.
+              For this reason he has tried several times to audition for the Warblers, the choir 
+              of the Sparrow Scouts.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-5">
+          <h2 class="nome">Frida</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/Frida.png"
+            alt="Frida"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">About</h3>
+            <p class="texto">
+              Frida is strong minded, intelligent, and highly organized, and always 
+              makes detailed plans for everything (so much in fact that Hilda actually 
+              wondered if Frida was raised by Elves).She is also competitive, always 
+              wanting to be the best. However, she tends to overthink things and tries too hard 
+              to be seen as perfect.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-6">
+          <h2 class="nome">Kaisa</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/Kaisa.png"
+            alt="Kaisa"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">About</h3>
+            <p class="texto">
+              Kaisa is usually calm, but can be rather strict with rules. She has the uncanny 
+              ability to always know exactly what book people are looking for, even before they can 
+              ask her about it. Another quirky thing about her is that she has memorized the entire 
+              layout of St. Guglows Cemetery. This last thing she doesn't want to admit however.
+            </p>
+          </div>
+        </li>
+        
+        <li class="cartao fundo-7">
+          <h2 class="nome">Alfur Aldric</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/Alfur.png"
+            alt="Alfur Aldric"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">About</h3>
+            <p class="texto">
+              Alfur is a member of the Aldric Family. He loves writing reports about Trolberg to 
+              the other Aldric elves. He is mostly known for paperworks and contracts, such as 
+              contracts for the exiles from the "The Lost Clan" and paperworks so that other humans 
+              can see him, such as Hilda and Frida.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="./src/imagens/seta.png" alt="seta para avançar a imagem" />
+      </button>
+    </main>
+
+  <script src="./src/js/index.js"></script>
+
+  </body>
+</html>
